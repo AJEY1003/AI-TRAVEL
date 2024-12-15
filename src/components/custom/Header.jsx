@@ -1,8 +1,11 @@
 export default function Header() {
   return (
-    <header>
-      <h1>AI Travel Planner</h1>
-      <img src="/logo.svg" alt="logo"/>
-    </header>
-  )
+    <div className="p-2 shadow-sm flex justify-between items-center px-5">
+        <img src="/logo.svg" alt="logo" className="h-12"/>
+        <div>
+        <button>Sign in</button>
+
+        </div>
+    </div>
+  );
 }
